@@ -11,6 +11,7 @@ SiClink
 ![Paper](https://img.shields.io/badge/Paper-Manuscript-blue)
 ![Code](https://img.shields.io/badge/Code-PyTorch-orange)
 ![Data](https://img.shields.io/badge/Data-Allen%20Neuropixels-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 <sup>†</sup> Equal contribution. <sup>\*</sup> Corresponding authors. <sup>‡</sup> Project lead.
 
@@ -36,6 +37,7 @@ SOPHON aligns variable, session-specific cortical spike populations with CLIP im
   <a href="#quick-start">Quick Start</a> |
   <a href="#data">Data</a> |
   <a href="#training">Training</a> |
+  <a href="#license">License</a> |
   <a href="#citation">Citation</a> |
   <a href="#contact">Contact</a>
 </p>
@@ -207,6 +209,10 @@ python main.py --help
 ```
 
 to inspect available path, data-split, model, optimization, loss, and runtime options.
+
+## License
+
+This repository is released under the [MIT License](LICENSE). The Allen Brain Observatory Visual Coding Neuropixels dataset is provided by the Allen Institute and remains subject to its own usage terms.
 
 ## Citation
 
