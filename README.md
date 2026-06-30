@@ -48,7 +48,7 @@ SOPHON is a neural-to-image retrieval framework for decoding natural image ident
 
 The core idea is to represent each unit as an anatomical token that combines spike activity, CCF coordinates, and visual-area identity, then model heterogeneous variable-size neural populations in a shared embedding space aligned with image features.
 
-> The name **SOPHON** evokes the sophon from Liu Cixin's novel *The Three-Body Problem*: a microscopic unit carrying dense information. Here, each spike-sorted unit becomes a spatially organized anatomical token that bridges cortical spikes and visual representations.
+> The name **SOPHON** evokes the sophon from Cixin Liu's novel *The Three-Body Problem*: a microscopic unit carrying dense information. Here, each spike-sorted unit becomes a spatially organized anatomical token that bridges cortical spikes and visual representations.
 
 ## Method
 
