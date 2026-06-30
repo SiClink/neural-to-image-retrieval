@@ -1,0 +1,14 @@
+# Core training dependencies
+numpy
+torch
+tqdm
+
+# Data preparation and analysis scripts
+h5py
+pandas
+
+# Plotting and representation-analysis utilities
+matplotlib
+pillow
+scikit-learn
+scipy

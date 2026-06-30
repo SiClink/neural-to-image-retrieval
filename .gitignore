@@ -1,0 +1,111 @@
+# macOS / system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python bytecode and runtime caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python build and packaging output
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments and local interpreters
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Dependency and tool caches
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.mplconfig/
+.tox/
+.nox/
+
+# Coverage reports
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Experiment outputs and tracking directories
+outputs/
+output/
+results/
+runs/
+artifacts/
+checkpoints/
+lightning_logs/
+wandb/
+mlruns/
+tensorboard/
+
+# Data directories that should stay local
+data/raw/
+data/interim/
+data/processed/
+data/external/
+data/cache/
+datasets/
+
+# Model weights, feature dumps, and large scientific data artifacts
+*.ckpt
+*.pth
+*.pt
+!resources/source/extracted_features.pt
+*.onnx
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.nwb
+*.mat
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
